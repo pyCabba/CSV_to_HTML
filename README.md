@@ -24,7 +24,7 @@ Now, to view these HTML pages, open any web-browser and enter the following URL 
 
 
 # Use this command  to run the changing:
-./csv_to_html.py user_emails.csv /var/www/html/<html-filename>.html  # Replace <html-filename> with the new name.
+./csv_to_html.py user_emails.csv /var/www/html/html-filename.html  # Replace html-filename with the new name.
 
 # How it looks like after changing:
 ![image](https://user-images.githubusercontent.com/106534212/205492730-ce0a44fb-b298-4ee1-9d3f-12e1a9d09243.png)
