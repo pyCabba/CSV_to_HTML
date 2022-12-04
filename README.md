@@ -15,10 +15,10 @@ ticky_check.py script will create the following reports:
 *	The user usage statistics for the service: A list of all users that have used the system, including how many info messages and how many error messages they've generated. This report is sorted by username.
 
 # You can visualize the __error_message.csv and user_statistics.csv by converting them to HTML pages. To do this, pass the files one by one to the script csv_to _html.py file
-./csv_to_html.py error_message.csv /var/www/html/<html-filename>.html
-## Replace <html-filename> with the name of your choice.
-./csv_to_html.py user_statistics.csv /var/www/html/<html-filename>.html
-## Replace <html-filename> with the new name
+## ./csv_to_html.py error_message.csv /var/www/html/<html-filename>.html
+Replace <html-filename> with the name of your choice.
+## ./csv_to_html.py user_statistics.csv /var/www/html/<html-filename>.html
+Replace <html-filename> with the new name
 
 Now, to view these HTML pages, open any web-browser and enter the following URL in the search bar. [linux-instance-external-IP]/[html-filename].html
 
